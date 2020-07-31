@@ -2,7 +2,6 @@ class CouponsController < ActionController::Base
 
   def index
     @coupons = Coupon.all
-    byebug
   end
 
   def show
